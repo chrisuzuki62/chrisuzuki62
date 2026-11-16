@@ -1,7 +1,7 @@
 # Hi, I'm Chris Suzuki 👋
 
-**Robotics Engineer** | MS Mechanical Engineering, Carnegie Mellon | Bay Area, CA
-Building autonomous robots with ROS2 and C++ for factories, construction sites, and the air.
+**Robotics Engineer** | MS Mechanical Engineering, Carnegie Mellon | Pittsburgh, PA
+Building autonomous robots with ROS2 and C++ for deployment in factories, construction sites, and the air.
 
 📫 chrisuzuki62@gmail.com · [LinkedIn](https://www.linkedin.com/in/chrisuzuki62/) · [Publications](#publications)
 🗣️ English, Japanese (fluent)
