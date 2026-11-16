@@ -1,45 +1,50 @@
 # Hi, I'm Chris Suzuki 👋
 
-**Robotics Engineer** | MS Mechanical Engineering, Carnegie Mellon | Pittsburgh, PA
-Building autonomous robots with ROS2 and C++ for deployment in factories, construction sites, and the air.
+**Robotics Engineer** | MS Mechanical Engineering, Carnegie Mellon (CERLAB) | Pittsburgh, PA
+I build autonomous robots with ROS and C++: UAV exploration and planning at CMU, custom factory and construction robots at YKK AP.
 
-📫 chrisuzuki62@gmail.com · [LinkedIn](https://www.linkedin.com/in/chrisuzuki62/) · [Publications](#publications)
+📫 chrisuzuki62@gmail.com · [LinkedIn](https://www.linkedin.com/in/chrisuzuki62/)
 🗣️ English, Japanese (fluent)
 
 ---
 
 ## What I work on
 
-- **Autonomy and planning:** UAV exploration, path planning, dynamic obstacle avoidance
-- **Perception:** RGB-D detection and tracking, point-cloud mapping, SLAM
-- **Systems integration:** custom robots from CAD (Fusion 360) through ROS2/C++ to on-site deployment
+- **Planning and exploration:** sampling-based and heuristic planners (RRT, RRT*, PRM) for UAVs in unknown, dynamic environments
+- **Perception:** RGB-D dynamic obstacle detection and tracking, Octomap/voxel mapping
+- **Systems integration:** CAD (Fusion 360) through ROS/ROS2 and C++ to simulation, PX4, and real flights
 
 ## Featured projects
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**uav-exploration-planner**](https://github.com/YOUR-USERNAME/REPO) | Heuristic-based incremental PRM planner for real-time 3D UAV exploration. *ICRA 2024.* [N% faster than baseline] | C++, ROS, PCL |
-| [**dynamic-obstacle-tracking**](https://github.com/YOUR-USERNAME/REPO) | Low-cost RGB-D detection and tracking of moving obstacles at [N Hz] on onboard compute. *RA-L 2023.* | C++, Python, OpenCV |
-| [**[industry-robot-project]**](https://github.com/YOUR-USERNAME/REPO) | [Non-confidential description of an YKK-style factory/construction robot: design, software, result] | ROS2, C++, Fusion 360 |
-| [**[personal-project]**](https://github.com/YOUR-USERNAME/REPO) | [One line + a demo GIF] | [stack] |
+| [**global_planner**](https://github.com/Zhefan-Xu/global_planner) | C++/ROS library of RRT, RRT*, and a heuristic-PRM exploration planner on Octomap. Co-authored at CERLAB. Basis of the ICRA 2024 paper. | C++, ROS, Octomap |
+| [**CERLAB UAV Autonomy Framework**](https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy) | Modular framework for UAV navigation, exploration, and inspection (simulation, mapping, detection, planning, control), tested in Gazebo, PX4 simulation, and real flights. Contributor. | C++, ROS, PX4, Gazebo |
+| [**[your-own-ros2-project]**](https://github.com/chrisuzuki62/REPO) | [One line + demo GIF + a result] | ROS2, C++ |
 
-> Pin these 4-6 repos on your profile. Put a demo GIF at the top of each repo README.
+> Where I'm not the repo owner, I list my contribution explicitly (see below) so it's clear what I built.
+
+### My contributions
+- **global_planner:** [list the specific planners/files/features you wrote]
+- **Autonomy framework:** [list modules you worked on, e.g. detection, exploration, flight testing]
+- **Real flights:** [N flights, platform, environments]
 
 ## Publications
 
-- Xu\*, **Suzuki**\*, Zhan, Shimada. *Heuristic-based Incremental Probabilistic Roadmap for Efficient UAV Exploration in Dynamic Environments.* ICRA 2024. [[paper]](LINK) [[code]](LINK) [[video]](LINK)
-- Xu\*, Zhan\*, Xiu, **Suzuki**, Shimada. *Low Computational-Cost Detection and Tracking of Dynamic Obstacles for Mobile Robots with RGB-D Cameras.* RA-L 2023. [[paper]](LINK)
-- Xu, Chen, Zhan, Xiu, **Suzuki**, Shimada. *A Vision-Based Autonomous UAV Inspection Framework for Unknown Tunnel Construction Sites with Dynamic Obstacles.* RA-L 2023. [[paper]](LINK)
+- Xu\*, **Suzuki**\*, Zhan, Shimada. *Heuristic-based Incremental Probabilistic Roadmap for Efficient UAV Exploration in Dynamic Environments.* ICRA 2024. [[paper]](https://arxiv.org/pdf/2303.00132.pdf) [[video]](https://youtu.be/fjVJCgDemjc) [[code]](https://github.com/Zhefan-Xu/global_planner)
+- Xu\*, Zhan\*, Xiu, **Suzuki**, Shimada. *Onboard Dynamic-Object Detection and Tracking for Autonomous Robot Navigation with RGB-D Camera.* RA-L 2024. [[paper]](https://ieeexplore.ieee.org/document/10323166) [[video]](https://youtu.be/9dKX3BRnxyw)
+- Xu, Chen, Zhan, Xiu, **Suzuki**, Shimada. *A Vision-Based Autonomous UAV Inspection Framework for Unknown Tunnel Construction Sites with Dynamic Obstacles.* RA-L 2023. [[paper]](https://ieeexplore.ieee.org/document/10167713) [[video]](https://youtu.be/MSNp-hg9RCQ)
 
 ## Tech
 
 ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![ROS](https://img.shields.io/badge/ROS%202-22314E?logo=ros&logoColor=white)
+![ROS](https://img.shields.io/badge/ROS%20%7C%20ROS%202-22314E?logo=ros&logoColor=white)
+![PX4](https://img.shields.io/badge/PX4-0E2A4F)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8)
 ![Fusion 360](https://img.shields.io/badge/Fusion%20360-FF6A00)
-![Ubuntu](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 
 ---
 
-*Open to robotics engineering roles in the Bay Area.*
+*Open to robotics engineering roles in any location.*
