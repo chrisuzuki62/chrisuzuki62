@@ -25,9 +25,9 @@ I build autonomous robots with ROS and C++: UAV exploration and planning at CMU,
 > Where I'm not the repo owner, I list my contribution explicitly (see below) so it's clear what I built.
 
 ### My contributions
-- **global_planner:** [list the specific planners/files/features you wrote]
-- **Autonomy framework:** [list modules you worked on, e.g. detection, exploration, flight testing]
-- **Real flights:** [N flights, platform, environments]
+- **global_planner:** co-developed the HIRE (Heuristic-based Incremental Probabilistic Roadmap Exploration) planner
+- **Autonomy framework:** worked on the planner, dynamic obstacle detector, and trajectory optimizer modules; helped make the system robust through extensive real flight testing
+- **Real flights:** many test flights in the lab and in a real tunnel in Otaru, Hokkaido, Japan [add flight count/platform if you have them]
 
 ## Publications
 
