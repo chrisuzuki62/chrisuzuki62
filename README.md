@@ -1,6 +1,6 @@
 # Hi, I'm Chris Suzuki 👋
 
-**Robotics Engineer** | MS Mechanical Engineering, Carnegie Mellon (CERLAB) | Pittsburgh, PA
+**Robotics Engineer** | MS Mechanical Engineering, Carnegie Mellon (CERLAB) | Bay Area, CA
 I build autonomous robots with ROS and C++: UAV exploration and planning at CMU, custom factory and construction robots at YKK AP.
 
 📫 chrisuzuki62@gmail.com · [LinkedIn](https://www.linkedin.com/in/chrisuzuki62/)
@@ -18,7 +18,7 @@ I build autonomous robots with ROS and C++: UAV exploration and planning at CMU,
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**global_planner**](https://github.com/Zhefan-Xu/global_planner) | C++/ROS library of RRT, RRT*, and a heuristic-PRM exploration planner on Octomap. Co-authored at CERLAB. Basis of the ICRA 2024 paper. | C++, ROS, Octomap |
+| [**global_planner**](https://github.com/Zhefan-Xu/global_planner) | C++/ROS library of RRT, RRT*, and a heuristic-PRM exploration planner on Octomap. Co-authored at CERLAB. Basis of the ICRA 2024 paper (18–39% shorter paths, 15–23% faster exploration than TARE in simulation). | C++, ROS, Octomap |
 | [**CERLAB UAV Autonomy Framework**](https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy) | Modular framework for UAV navigation, exploration, and inspection (simulation, mapping, detection, planning, control), tested in Gazebo, PX4 simulation, and real flights. Contributor. | C++, ROS, PX4, Gazebo |
 | [**[your-own-ros2-project]**](https://github.com/chrisuzuki62/REPO) | [One line + demo GIF + a result] | ROS2, C++ |
 
@@ -31,9 +31,9 @@ I build autonomous robots with ROS and C++: UAV exploration and planning at CMU,
 
 ## Publications
 
-- Xu\*, **Suzuki**\*, Zhan, Shimada. *Heuristic-based Incremental Probabilistic Roadmap for Efficient UAV Exploration in Dynamic Environments.* ICRA 2024. [[paper]](https://arxiv.org/pdf/2303.00132.pdf) [[video]](https://youtu.be/fjVJCgDemjc) [[code]](https://github.com/Zhefan-Xu/global_planner)
-- Xu\*, Zhan\*, Xiu, **Suzuki**, Shimada. *Onboard Dynamic-Object Detection and Tracking for Autonomous Robot Navigation with RGB-D Camera.* RA-L 2024. [[paper]](https://ieeexplore.ieee.org/document/10323166) [[video]](https://youtu.be/9dKX3BRnxyw)
-- Xu, Chen, Zhan, Xiu, **Suzuki**, Shimada. *A Vision-Based Autonomous UAV Inspection Framework for Unknown Tunnel Construction Sites with Dynamic Obstacles.* RA-L 2023. [[paper]](https://ieeexplore.ieee.org/document/10167713) [[video]](https://youtu.be/MSNp-hg9RCQ)
+- Xu\*, **Suzuki**\*, Zhan, Shimada. *Heuristic-based Incremental Probabilistic Roadmap for Efficient UAV Exploration in Dynamic Environments.* ICRA 2024. [[paper]](https://arxiv.org/abs/2309.09121) [[video]](https://youtu.be/fjVJCgDemjc) [[code]](https://github.com/Zhefan-Xu/global_planner)
+- Xu\*, Zhan\*, Xiu, **Suzuki**, Shimada. *Onboard Dynamic-Object Detection and Tracking for Autonomous Robot Navigation with RGB-D Camera.* RA-L 2024. [[paper]](https://arxiv.org/abs/2303.00132) [[video]](https://youtu.be/9dKX3BRnxyw)
+- Xu, Chen, Zhan, Xiu, **Suzuki**, Shimada. *A Vision-Based Autonomous UAV Inspection Framework for Unknown Tunnel Construction Sites with Dynamic Obstacles.* RA-L. [[paper]](https://arxiv.org/abs/2301.08422) [[video]](https://youtu.be/MSNp-hg9RCQ)
 
 ## Tech
 
@@ -47,4 +47,4 @@ I build autonomous robots with ROS and C++: UAV exploration and planning at CMU,
 
 ---
 
-*Open to robotics engineering roles in any location.*
+*Open to robotics engineering roles in the Bay Area.*
